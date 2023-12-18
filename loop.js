@@ -26,8 +26,19 @@ const ourState = [
 
 
 //<============While and do while loops==========>
- let i = 0;
- while(i < ourState.length){
-     console.log(ourState[i]);
+//While loop 
+// let i = 0;
+//  while(i < ourState.length){
+//      console.log(ourState[i]);
+//      i++;
+//  }
+
+
+ //Do while 
+ let i = 20;
+
+ do{
+     console.log(i);
      i++;
  }
+ while(i < 10);
