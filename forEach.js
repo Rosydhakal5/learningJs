@@ -28,3 +28,10 @@ mystates.forEach(ab => {
     console.log(ab);
     
 });
+
+//for of 
+const social = ["linkdein", "facebook", "instagram", "X"]
+for (const  n of social) {
+    console.log(n);
+}
+
