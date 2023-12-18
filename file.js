@@ -5,7 +5,11 @@ var user = {
     lastName: "Dhakal",
     role: "Software Developer",
     loginCount: 32,
-    accountSignedIn : true
+    accountSignedIn : true,
+    courseList : [],
+    buyCourse: function(courseName){
+        this.courseList.push(courseName);
+    }
 };
 //accessing value 
 
@@ -20,3 +24,6 @@ console.log(user);
 
 //displaying values in table format
 console.table(user);
+
+// <============Learning Methods==========>
+
