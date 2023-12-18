@@ -1,5 +1,10 @@
 // <============Learning Loops again==========>
-// for (let i = 0; i < 10; i++) {
+
+
+// <============For Loop=========>
+
+
+//for (let i = 0; i < 10; i++) {
 //     console.log(i); 
 // } 
 
@@ -11,10 +16,18 @@ const ourState = [
     "WA", 
     123434,
     "southAus"];
-    for (let i = 0; i < ourState.length; i++) {
-        //only printing strings 
-        if(typeof ourState[i] !== "string") break;
-        const element = ourState[i];
+    // for (let i = 0; i < ourState.length; i++) {
+    //     //only printing strings 
+    //     if(typeof ourState[i] !== "string") break;
+    //     const element = ourState[i];
         
-    }
-    console.log(ourState);
+    // }
+    // console.log(ourState);
+
+
+//<============While and do while loops==========>
+ let i = 0;
+ while(i < ourState.length){
+     console.log(ourState[i]);
+     i++;
+ }
