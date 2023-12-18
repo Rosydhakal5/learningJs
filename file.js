@@ -12,7 +12,8 @@ var user = {
     },
     getCourseCount: function(){
         return `${this.firstName} have enrolled you in total of ${this.courseList.length} courses, they are ${this.courseList}, Are you ready to learn?`
-    }
+    },
+
 };
 // <============Learning Methods==========>
 var courseList = true;
@@ -24,8 +25,6 @@ user.buyCourse(" Angular course");
 
 
 console.log(user.getCourseCount());
-
-
 
 
 
