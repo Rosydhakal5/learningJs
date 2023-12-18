@@ -47,3 +47,18 @@ const symbol = {
 for (const sy in symbol) {
     console.log(`key is: ${sy} and value is ${symbol[sy]}`)
     }
+
+
+// <=======LEARNING ABOUT THIS===========>
+
+//Trying different things
+
+var user = {
+    firstName: "Rozie",
+    courseCount: 5,
+    getCourseCount :function(){
+        console.log("This is coming from Line 60", this);
+    }
+};
+
+user.getCourseCount();
