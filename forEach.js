@@ -51,7 +51,7 @@ for (const sy in symbol) {
 
 // <=======LEARNING ABOUT THIS===========>
 
-//Trying different things
+//Trying different things by using this 
 
 var user = {
     firstName: "Rozie",
@@ -62,7 +62,7 @@ var user = {
             console.log("Hello");
             console.log("Line 63", this);
         }
-        sayHello();
+        sayHello(); //regular function calls, this points to window object
     }
 };
 
