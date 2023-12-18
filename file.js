@@ -15,3 +15,5 @@ console.log(user["lastName"]);
 //Manipulating value 
 user.loginCount = 44;
 console.log(user.loginCount);
+console.log(user.role);
+console.log(user);
