@@ -13,9 +13,8 @@ const ourState = [
     "southAus"];
     for (let i = 0; i < ourState.length; i++) {
         //only printing strings 
-        if(typeof ourState[i] !== "string") continue;
+        if(typeof ourState[i] !== "string") break;
         const element = ourState[i];
         
     }
-
     console.log(ourState);
