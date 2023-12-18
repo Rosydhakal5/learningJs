@@ -58,7 +58,13 @@ var user = {
     courseCount: 5,
     getCourseCount :function(){
         console.log("This is coming from Line 60", this);
+        function sayHello(){
+            console.log("Hello");
+            console.log("Line 63", this);
+        }
+        sayHello();
     }
 };
 
 user.getCourseCount();
+
