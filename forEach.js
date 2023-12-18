@@ -45,5 +45,5 @@ const symbol = {
 }
 
 for (const sy in symbol) {
-    console.log(sy)
+    console.log(`key is: ${sy} and value is ${symbol[sy]}`)
     }
