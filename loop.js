@@ -9,8 +9,11 @@ const ourState = [
     "Tasmania", 
     "victoria",
     "WA", 
+    123434,
     "southAus"];
     for (let i = 0; i < ourState.length; i++) {
+        //only printing strings 
+        if(typeof ourState[i] !== "string") continue;
         const element = ourState[i];
         
     }
