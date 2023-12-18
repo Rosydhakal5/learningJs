@@ -22,3 +22,9 @@ mystates.forEach(a => {
     console.log(a);
 });
 
+//deleting last value using pop 
+mystates.forEach(ab => {
+    ab = mystates.pop();
+    console.log(ab);
+    
+});
