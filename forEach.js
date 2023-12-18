@@ -29,9 +29,21 @@ mystates.forEach(ab => {
     
 });
 
-//for of 
+//for of (FOR ARRAYS )
 const social = ["linkdein", "facebook", "instagram", "X"]
 for (const  n of social) {
     console.log(n);
 }
 
+//for in for OBJECTS 
+
+const symbol = {
+    yt: "Youtube",
+    fb: "Facebook",
+    ig: "instagram",
+    rd: "Rosy Dhakal"
+}
+
+for (const sy in symbol) {
+    console.log(sy)
+    }
