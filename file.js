@@ -17,3 +17,6 @@ user.loginCount = 44;
 console.log(user.loginCount);
 console.log(user.role);
 console.log(user);
+
+//displaying values in table format
+console.table(user);
