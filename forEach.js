@@ -1,4 +1,4 @@
-//<============ for Each loop==========>
+//<============ for Each==========>
 const ourStates = [
     "NSW", 
     "Queensland", 
@@ -15,4 +15,10 @@ const ourStates = [
     ];
 
 ourStates.forEach((s) => (console.log(s)));
+
+//changing to Uppercase
+mystates.forEach(a => {
+    a = a.toUpperCase();
+    console.log(a);
+});
 
